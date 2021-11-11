@@ -39,7 +39,7 @@ height: 100%;}
     
 }
 body{
-    background: url(canopy.jpeg);
+    background: url(photo/canopy.jpeg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
