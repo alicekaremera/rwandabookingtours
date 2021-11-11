@@ -1,0 +1,125 @@
+*{
+    padding:0px;
+     margin:0px;
+     box-sizing: border-box;
+
+}
+.topnav{
+    width: 100%;
+     height: 70px; 
+    background:maroon;
+    padding-top: 15px;
+    padding-left:15px ;
+    box-shadow:3px 3px rgb(8, 12, 9);
+
+    display: flex;
+    
+}
+.log{
+    width: 90px;
+    height: 40px;
+    background: mintcream;
+    overflow: hidden;
+}
+.navbar_right{
+    color: white;
+    height:70px ;
+    width:80% ;
+}
+.topnav a{
+    color: #ffff;
+    padding: 20px;
+    font-size:large ;
+   /*  background: olivedrab;*/
+    float: right;
+    text-decoration: none;
+height: 100%;}
+.topnav a:hover{
+    background-color: mediumspringgreen;
+    
+}
+body{
+    background: url(canopy.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.tour_section_container{
+    background-color: white;
+    width:100% ;
+    height: 150vh;
+     margin-top: 100%; 
+
+overflow: hidden;
+} 
+.line_section{
+
+    width:100% ;
+    display: flex;
+    padding-top: 10px;
+    ;
+
+}
+.line_one{
+    width: 15%;
+    height: 10px;
+    margin-left:35%;
+    background-color: maroon;
+
+}
+.line_two{
+    width: 10%;
+    height: 10px;
+    margin-left: 10%;
+    background-color: maroon
+
+}
+.line_three{
+    width: 100px;
+    height: 10px;
+    margin-left: 3%;
+    background-color: maroon
+}
+
+
+.main_selection{
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color: white;
+    height:70vh;
+    width: 100%;
+    display: flex;
+}
+.right_section{
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color: maroon;
+    height:70vh;
+    width: 50%;
+    display: flex;
+ }
+button{
+    /* width: 100px;
+    height: 10px; */
+    margin-left: 9;
+    margin-top: 12%; 
+
+}
+.right_photo{
+    width: 100px;
+    height: 1000px;
+    margin-left: 30%;
+    margin-top:10% ;
+}
+
+button{
+    height: 20px;
+    width: 60px;
+    border-radius: 30px;
+
+}
+.right_photo{
+    padding-top: 10px;
+
+    
+}
