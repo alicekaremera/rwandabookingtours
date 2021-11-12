@@ -18,8 +18,8 @@
 .log{
     width: 90px;
     height: 40px;
-    background: mintcream;
-    overflow: hidden;
+    background: rgb(255, 253, 245);
+    overflow: hidden; 
 }
 .navbar_right{
     color: white;
@@ -35,29 +35,30 @@
     text-decoration: none;
 height: 100%;}
 .topnav a:hover{
-    background-color: mediumspringgreen;
+    background-color: mediumspringgreen;}
     
-}
+   
 body{
     background: url(photo/canopy.jpeg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
-.tour_section_container{
+ .tour_section_container{
     background-color: white;
     width:100% ;
     height: 150vh;
      margin-top: 100%; 
 
-overflow: hidden;
+overflow: hidden; 
 } 
 .line_section{
 
     width:100% ;
     display: flex;
     padding-top: 10px;
-    ;
+    
+    background-color: rgb(12, 99, 180);
 
 }
 .line_one{
@@ -85,7 +86,7 @@ overflow: hidden;
 .main_selection{
     padding-top: 30px;
     padding-left: 20px;
-    background-color: white;
+    /* background-color: mediumslateblue; */
     height:70vh;
     width: 100%;
     display: flex;
@@ -98,28 +99,56 @@ overflow: hidden;
     width: 50%;
     display: flex;
  }
-button{
-    /* width: 100px;
-    height: 10px; */
-    margin-left: 9;
-    margin-top: 12%; 
+button button{
+     width: 100px;
+    height: 10px; 
+    padding-left: 15px;
+
+     
+
 
 }
-.right_photo{
-    width: 100px;
-    height: 1000px;
-    margin-left: 30%;
-    margin-top:10% ;
-}
+
+
 
 button{
     height: 20px;
     width: 60px;
-    border-radius: 30px;
-
-}
-.right_photo{
-    padding-top: 10px;
-
+    border-radius: 30px;}
     
+    .right_photo{
+
+        height: 400px;
+        width:600px;
+        
+        margin-left: 50%;
+        /* padding-top: 10%;
+     */
+    }
+    
+
+.label{
+    height: 200px;
+    width: 30%;
+    /* background-color: blueviolet; */
+    margin-top: 180px;
+
+
 }
+.form {
+    background-color: maroon;
+
+}
+
+.about{
+    
+    height: 400px;
+    width: 600px;
+
+    margin-top: 40px;
+    margin-left: 20%;
+}
+.about p{
+    color: black;   
+}
+    
